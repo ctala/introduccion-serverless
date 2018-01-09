@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "aws-sdk": "^2.179.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
@@ -14,5 +15,10 @@
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.4.5",
     "serverless-http": "^1.5.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.179.0",
+    "serverless-dynamodb-local": "^0.2.27",
+    "serverless-offline": "^3.16.0"
   }
 }

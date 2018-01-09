@@ -6,6 +6,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+
+//export const USERS_TABLE = process.env.USERS_TABLE;
+//export const dynamoDb = new AWS.DynamoDB.DocumentClient();
+
+
+
 var index = require('./routes/index');
 var users = require('./routes/users');
 var productos = require('./routes/productos');
